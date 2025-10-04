@@ -1,0 +1,741 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    line-height: 28px;
+}
+
+/* Header */
+
+.container {
+    background-color: #1d2025;
+    color: #fff;
+    height: 80px;
+    box-sizing: border-box;
+    border-bottom: 3px solid black;
+}
+
+.haris {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.title h1 {
+    font-size: 25px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+nav {
+    margin: auto;
+}
+
+.navigasi li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navigasi li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.pencet {
+    margin-right: 30px;
+    width: 200px;
+    background-color: dodgerblue;
+    border: solid mediumpurple 1px;
+    cursor: pointer;
+}
+
+.pencet:hover {
+    background-color: mediumslateblue;
+}
+
+.pencet:active {
+    background-color: orchid;
+}
+
+/* Main */
+
+.content {
+    background-color: dimgrey;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* Pages 1 */
+
+.pages-1 {
+    display: flex;
+    padding: 55px;
+    box-sizing: border-box;
+}
+
+.pengenalan {
+    margin-top: 10%;
+}
+
+.pengenalan p {
+    font-size: 20px;
+    font-variant: normal;
+    color: gainsboro;
+    margin-right: 20px;
+    display: flex;
+}
+
+.DM {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 300px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.DM:hover {
+    background-color: mediumslateblue;
+}
+
+.DM:active {
+    background-color: orchid;
+}
+
+.DM a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.sosial {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 6%;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.gambar {
+    width: 470px;
+    height: 470px;
+    border-radius: 60px;
+    border: #1d2025 solid;
+    filter: brightness(1.1);
+    box-shadow: 0 0 50px ghostwhite;
+}
+
+/* Pages-2 */
+
+.pages-2 {
+    background-color: grey;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 3% 8px;
+}
+
+.mercon {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: double underline;
+    margin-bottom: 2em;
+}
+
+.about {
+    margin-top: 7px;
+}
+
+.immagine {
+    height: 470px;
+    width: 470px;
+    border: #1d2025 solid;
+    border-radius: 60px;
+    filter: brightness(1.1);
+    box-shadow: 0 0 80px ghostwhite;
+    margin: 1em 50px;
+    float: left;
+}
+
+.isi {
+    margin: 3.5em 5em;
+}
+
+.taitoru {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bunsho {
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* Float */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* Pages-3 */
+
+.pages-3 {
+    background-color: #393E46;
+    height: auto;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+.kareer {
+    padding: 10px 0;
+}
+
+.tongseng {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: double underline;
+    text-align: center;
+    color: #fff;
+}
+
+.kartu {
+    background-color: gray;
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 3rem;
+    margin: 3em 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.kartu:hover {
+    background-color: darkgray;
+    box-shadow: 0 0 80px ghostwhite;
+}
+
+.Icons {
+    height: 60px;
+    width: 60px;
+    background-color: dimgrey;
+    margin: auto;
+    text-align: center;
+    border-radius: 90px;
+    border: solid #1d2025 3px;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    margin: 10px 0;
+}
+
+.risol {
+    display: flex;
+    font-display: row;
+    margin: 2em auto;
+}
+
+.work {
+    margin: 5px 0;
+    padding: 3px 0;
+}
+
+.work h1 {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.work p {
+    font-size: 19px;
+    text-align: center;
+}
+
+/* Pages 4 */
+
+.pages-4 {
+    height: auto;
+    background-color: #222831;
+    box-sizing: border-box;
+    width: auto;
+    padding: 3%;
+}
+
+.bapau {
+    margin: 10px 0;
+}
+
+.keunikan {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: double underline;
+    color: #fff;
+}
+
+.ayo {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 5em 10px;
+    gap: 2em;
+}
+
+.html {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid orangered 3px;
+    box-sizing: border-box;
+    padding: 21px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.kerangka {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logosan {
+    margin: 10px 25px;
+    width: 82px;
+    height: 80px;
+}
+
+.css {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid blue 3px;
+    box-sizing: border-box;
+    padding: 23px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.js {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid gold 3px;
+    box-sizing: border-box;
+    padding: 23px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.php {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid royalblue 3px;
+    box-sizing: border-box;
+    padding: 23px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.logochan {
+    width: 100px;
+    height: 75px;
+    margin: 15px;
+}
+
+.react {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid darkturquoise 3px;
+    box-sizing: border-box;
+    padding: 23px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.node {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid limegreen 3px;
+    border-radius: 20px;
+    padding: 23px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.infinity {
+    width: 100px;
+    height: 60px;
+    margin: 20px;
+}
+
+.tailwind {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid dodgerblue 3px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.desainer {
+    width: 100px;
+    height: 75px;
+    margin: 20px;
+}
+
+.figma {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid mediumpurple 3px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.canvas {
+    width: 90px;
+    height: 80px;
+    margin: 10px 20px;
+}
+
+.canva {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid deepskyblue 3px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.daisyu {
+    width: 90px;
+    height: 80px;
+    margin: 10px 20px;
+}
+
+.daisyui {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid gold 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px 23px;
+    text-align: center;
+}
+
+.backend {
+    width: 90px;
+    height: 90px;
+    margin: 10px 20px;
+}
+
+.laravel {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid firebrick 3px;
+    border-radius: 20px;
+    padding: 20px 23px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.vues {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.vue {
+    width: 180px;
+    height: 180px;
+    background-color: #222831;
+    border: solid forestgreen 3px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Pages 5 */
+
+.pages-5 {
+    height: auto;
+    background-color: #1A1A1D;
+    box-sizing: border-box;
+    width: auto;
+    padding: 3%;
+}
+
+.kontak {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.aponyo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.najis {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.garis {
+    color: #fff;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 5px;
+    font-size: 37px;
+}
+
+.landscape {
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.formulir {
+    padding: 2em 1em;
+    background-color: #393E46;
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 35px auto;
+}
+
+.Messages {
+    display: inline-block;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.nama {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.Nama {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.nama input {
+    width: 340px;
+    height: 25px;
+    border-radius: 6px;
+    border: solid #fff 1px;
+    font-size: 15px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.Email {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.email input {
+    width: 340px;
+    height: 25px;
+    border-radius: 6px;
+    border: solid #fff 1px;
+    font-size: 15px;
+}
+
+.pesan {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.Pesan {
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.pesan textarea {
+    width: 340px;
+    height: auto;
+    border-radius: 10px;
+    border: solid #fff 1px;
+    resize: none;
+    font-size: 15px;
+
+}
+
+.tekan {
+    width: 340px;
+    height: 45px;
+    margin: 20px 0;
+    background-color: darkorchid;
+    border: mediumorchid solid 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}
+
+.tekan:hover {
+    background-color: dodgerblue;
+    border: #fff solid 1px;
+}
+
+.tekan:active {
+    background-color: mediumslateblue;
+    border: mediumpurple solid 1px;
+}
+
+/* Fotting */
+
+.footing {
+    background-color: #1d2025;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 1%;
+    height: 250px;
+    clear: both;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    margin: 1em 40px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: solid #393E46 4px;
+}
+
+.tolol {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 10px;
+    color: beige;
+}
+
+.data ol {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.data ol a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sosmed .ending{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+}
+
+.lisensi {
+    margin: 10px 0;
+    padding: 25px 0;
+    box-sizing: border-box;
+}
+
+.lisensi {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-indent: 2em;
+}
